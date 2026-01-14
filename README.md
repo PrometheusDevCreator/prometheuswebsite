@@ -4,7 +4,7 @@ A sophisticated animated landing page for **Prometheus Education Systems** - an 
 
 ## Live Demo
 
-[View Live Site](https://prometheuseducationsystems.net)
+[View Live Site](https://prometheuseducationsystems.com)
 
 ## Overview
 
@@ -60,7 +60,7 @@ To deploy your own instance:
 
 - **Email**: prometheuseducationsystems@gmail.com
 - **Phone**: +971 553701789
-- **Web**: [prometheuseducationsystems.net](https://prometheuseducationsystems.net)
+- **Web**: [prometheuseducationsystems.net](https://prometheuseducationsystems.com)
 
 ## License
 
@@ -68,4 +68,4 @@ To deploy your own instance:
 
 ---
 
-*Built with care by ELAN Training Solutions*
+*Built with care by Prometheus Education Systems*
