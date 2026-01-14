@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ELAN Training Solutions</title>
+    <title>Prometheus Education Systems</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Rajdhani:wght@300;400;500;600&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
@@ -128,14 +128,14 @@
             opacity: 1;
         }
 
-        .fixed-header .elan-title {
+        .fixed-header .prometheus-title {
             display: flex;
             gap: 0.8rem;
             justify-content: center;
             margin-bottom: 0.5rem;
         }
 
-        .fixed-header .elan-letter {
+        .fixed-header .prometheus-letter {
             font-family: 'Cinzel', serif;
             font-size: 3.5rem;
             font-weight: 400;
@@ -159,7 +159,7 @@
             margin: 0 auto 0.5rem;
         }
 
-        .fixed-header .training-solutions {
+        .fixed-header .education-systems {
             font-family: 'Rajdhani', sans-serif;
             font-size: 1.125rem;
             font-weight: 300;
@@ -615,11 +615,11 @@
 
         /* Responsive */
         @media (max-width: 1024px) {
-            .fixed-header .elan-letter {
+            .fixed-header .prometheus-letter {
                 font-size: 2.5rem;
             }
             
-            .fixed-header .elan-title {
+            .fixed-header .prometheus-title {
                 gap: 0.5rem;
             }
 
@@ -643,15 +643,15 @@
         }
 
         @media (max-width: 768px) {
-            .fixed-header .elan-letter {
+            .fixed-header .prometheus-letter {
                 font-size: 1.8rem;
             }
 
-            .fixed-header .elan-title {
+            .fixed-header .prometheus-title {
                 gap: 0.3rem;
             }
 
-            .fixed-header .training-solutions {
+            .fixed-header .education-systems {
                 font-size: 0.75rem;
                 letter-spacing: 0.3em;
             }
@@ -680,26 +680,26 @@
         <div class="contact-content">
             <a class="contact-item" href="mailto:prometheuseducationsystems@gmail.com">prometheuseducationsystems@gmail.com</a>
             <a class="contact-item" href="https://wa.me/971553701789">WhatsApp +971 553701789</a>
-            <a class="contact-item" href="https://prometheuseducationsystems.net" target="_blank">Web: prometheuseducationsystems.net</a>
+            <a class="contact-item" href="https://prometheuseducationsystems.com" target="_blank">Web: prometheuseducationsystems.com</a>
         </div>
     </div>
 
     <!-- Fixed Header - persists across all pages -->
     <div class="fixed-header center-position" id="fixedHeader">
-        <div class="elan-title">
-            <span class="elan-letter" id="letterP">P</span>
-            <span class="elan-letter" id="letterR">R</span>
-            <span class="elan-letter" id="letterO">O</span>
-            <span class="elan-letter" id="letterM">M</span>
-            <span class="elan-letter" id="letterE">E</span>
-            <span class="elan-letter" id="letterT">T</span>
-            <span class="elan-letter" id="letterH">H</span>
-            <span class="elan-letter" id="letterE2">E</span>
-            <span class="elan-letter" id="letterU">U</span>
-            <span class="elan-letter" id="letterS">S</span>
+        <div class="prometheus-title">
+            <span class="prometheus-letter" id="letterP">P</span>
+            <span class="prometheus-letter" id="letterR">R</span>
+            <span class="prometheus-letter" id="letterO">O</span>
+            <span class="prometheus-letter" id="letterM">M</span>
+            <span class="prometheus-letter" id="letterE">E</span>
+            <span class="prometheus-letter" id="letterT">T</span>
+            <span class="prometheus-letter" id="letterH">H</span>
+            <span class="prometheus-letter" id="letterE2">E</span>
+            <span class="prometheus-letter" id="letterU">U</span>
+            <span class="prometheus-letter" id="letterS">S</span>
         </div>
         <div class="main-line" id="mainLine"></div>
-        <div class="training-solutions" id="trainingSolutions">TRAINING SOLUTIONS</div>
+        <div class="education-systems" id="trainingSolutions">EDUCATION SYSTEMS</div>
     </div>
 
     <!-- Elephant Logo (Always Present) -->
@@ -862,7 +862,7 @@
             elephant: 2000,
             letterDelay: 250,
             mainLine: 5500,
-            trainingSolutions: 7000,
+            educationSystems: 7000,
             navLines: 8000,
             navWords: 9500,
             enterLabel: 11500,
@@ -893,10 +893,10 @@
                 document.getElementById('mainLine').classList.add('scale-in');
             }, timing.mainLine);
 
-            // 3a. Training Solutions appears
+            // 3a. Education Systems appears
             setTimeout(() => {
-                document.getElementById('trainingSolutions').classList.add('fade-in');
-            }, timing.trainingSolutions);
+                document.getElementById('educationSystems').classList.add('fade-in');
+            }, timing.educationSystems);
 
             // 4. Bottom nav lines emanate from center (two separate lines)
             setTimeout(() => {
